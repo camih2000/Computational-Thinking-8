@@ -46,7 +46,7 @@ elif answer4 == "C":
     electronic_points += 1
     rap_points += 1
 answer5 = input("lastly, where would you rather live? A mountains, B beach, or C city? ")
-if answer5 == "A":
+if answer5 == "A" or answer5 == "a":
     alt_points += 1
     randb_points += 1
 elif answer5 == "B":
