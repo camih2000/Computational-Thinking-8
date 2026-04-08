@@ -24,8 +24,8 @@ elif answer2 == "B":
     randb_points += 1
 elif answer2 == "C":
     electronic_points += 1
-    rap_points = 1
-    alt_points = 1
+    rap_points += 1
+    alt_points += 1
 
 answer3 = input("do you like A fast music, or B slow music? ")
 if answer3 == "A":
