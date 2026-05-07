@@ -12,7 +12,6 @@ y4 =-120
 # # shows where the sprites are located on the graph
 
 # Section 2 - Setup
-# # TODO - use your own background, and set your four turtles to images of your choice
 set_background("pier")
 t1 = create_sprite("alien.gif",x1,y1)
 t2 = create_sprite("lizzo.gif",x2,y2)
