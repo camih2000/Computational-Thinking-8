@@ -1,7 +1,7 @@
 from utils import *
 
 # Section 1 - setup
-# TODO - set a background using set_background()
+# You feed Mike to the Blair Witch to keep her health stable, and if you don't, you DIE. 
 
 # TODO - create at least two variables and set their starting value. ex: cookies = 0
 set_background("grigghouse.gif")
@@ -14,7 +14,7 @@ spritelist = []
 
 
 # Section 2 - controls
-# TODO - define an action. ex: def my_control()
+# TODO - define an action. e
 def make_mike():
     global mikes, health
     mikes += 1
@@ -53,10 +53,9 @@ for i in range(1000000000):
         m4 = create_sprite("blairwitch.gif", 0, -300)
         time.sleep(0.3)
         quit()
-    # TODO - put any automatic actions here
     health -= 1
 
-    # OPTIONAL - use the message sprite to say a message
+    # OPTIONAL - use the message sprite to say a mes
     m3.clear()
     m3.write(f"health: {health}",font = ("Arial", 40, "normal"))
     time.sleep(0.2)
